@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "nodenext",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./resources/*"],
+            "@larasar/*": ["./resources/*"]  // ./resources/vendor/larasar/*
+        }
+    }
+}
