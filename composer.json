@@ -1,9 +1,14 @@
 {
     "name": "bladerlaiga/larasar",
     "description": "Template of laravel and quasar",
-    "version": "0.1.33",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "quasar",
+        "php"
+    ],
     "license": "MIT",
+    "homepage": "https://github.com/AnasMubarakYasin/larasar",
     "autoload": {
         "psr-4": {
             "Bladerlaiga\\Larasar\\": "src/"
@@ -11,20 +16,20 @@
     },
     "authors": [
         {
-            "name": "AnasMubarakYasin"
+            "name": "Anas Mubarak Yasin",
+            "email": "bladerlaiga.97@gmail.com",
+            "homepage": "https://github.com/AnasMubarakYasin",
+            "role": "Developer"
         }
     ],
     "extra": {
         "laravel": {
-          "providers": [
-            "Bladerlaiga\\Larasar\\ServiceProvider"
-          ],
-          "aliases": [
-          ]
+            "providers": [
+                "Bladerlaiga\\Larasar\\ServiceProvider"
+            ],
+            "aliases": []
         }
-      },
-    "preset": "psr12",
-    "minimum-stability": "dev",
+    },
     "require": {
         "php": "^8.1",
         "illuminate/support": "^10.1"
@@ -32,6 +37,7 @@
     "require-dev": {
         "laravel/pint": "^1.6"
     },
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
